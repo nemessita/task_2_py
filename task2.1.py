@@ -1,0 +1,6 @@
+# tuple data tipine bir element elave et(bashqa data tipe cevirerek)
+t = (1, 2, 3,)
+l = list(t)
+l.append(4)
+t = tuple(l)
+print(t)
